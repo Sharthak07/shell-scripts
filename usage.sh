@@ -5,13 +5,13 @@
 
 set -e  # exit immediately if any command fails
 
-echo "==== DISK USAGE ===="
+echo "==== DISK USAGE ====="
 df -h
 
 echo ""
-echo "==== MEMORY USAGE ===="
+echo "==== MEMORY USAGE ====="
 free -m
 
 echo ""
-echo "==== RUNNING PROCESSES ===="
+echo "==== RUNNING PROCESSES ====="
 ps aux
